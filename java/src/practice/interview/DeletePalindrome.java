@@ -1,4 +1,4 @@
-package interview;
+package practice.interview;
 
 /**
  * 微软：

@@ -1,7 +1,6 @@
 package hard;
 
 import java.util.*;
-import java.util.function.BiFunction;
 
 public class Solution30 {
     public static void main(String[] args) {
