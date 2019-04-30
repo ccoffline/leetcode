@@ -25,6 +25,7 @@ public class J {
             nodes.get(b).add(a);
         }
         int d = findDeepest(findDeepest(0, height, nodes), height, nodes);
+        d = height[d] + 1;
         if (k > d) System.out.println(2 * (k - d) + d - 1);
         else System.out.println(k - 1);
     }

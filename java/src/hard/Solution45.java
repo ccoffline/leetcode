@@ -22,6 +22,6 @@ public class Solution45 {
         long t = System.currentTimeMillis();
         System.out.println(new Solution45().jump(test));
         System.out.println(System.currentTimeMillis() - t);
-//        System.out.println(new Solution().jump(new int[]{7, 0, 9, 6, 9, 6, 1, 7, 9, 0, 1, 2, 9, 0, 3}));
+//        System.out.println(new medium.Solution1031().jump(new int[]{7, 0, 9, 6, 9, 6, 1, 7, 9, 0, 1, 2, 9, 0, 3}));
     }
 }
