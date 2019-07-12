@@ -12,6 +12,8 @@ public class Solution4 {
                 {-2, -1},
                 {1, 2},
                 {-1, 3},
+                {1, 2},
+                {3, 4, 5}
         };
         Solution4 solution = new Solution4();
         int i = 0;
@@ -63,13 +65,13 @@ public class Solution4 {
                 if (temp1 < temp2) {
                     if (left == right)
                         return temp2;
-                    right = mid;
+                    left = mid + 1;
                     continue;
                 }
                 if (temp1 > temp3) {
                     if (left == right)
                         return temp3;
-                    left = mid + 1;
+                    right = mid;
                     continue;
                 }
                 return temp1;
