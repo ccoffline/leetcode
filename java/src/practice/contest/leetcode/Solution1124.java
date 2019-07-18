@@ -4,19 +4,25 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Solution1124 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(new File("test.txt")));
-        String[] strings = reader.readLine().split(",");
-        int[] array = new int[strings.length];
-        for (int i = 0; i < strings.length; i++)
-            array[i] = Integer.parseInt(strings[i]);
-
-        int[][] cases = {
-                array
-        };
+        String line;
+        List temp = new ArrayList();
+        while ((line = reader.readLine()) != null) {
+            String[] strings = line.split(",");
+            int[] array = new int[strings.length];
+            for (int i = 0; i < strings.length; i++)
+                array[i] = Integer.parseInt(strings[i]);
+            temp.add(array);
+        }
+        int[][] cases = new int[temp.size()][];
+        for (int i = 0; i < temp.size(); i++)
+            cases[i] = (int[]) temp.get(i);
         Solution1124 solution = new Solution1124(), bad = new BadSolution(), test = new TestSolution();
         int i = 0;
         long start;
