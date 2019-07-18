@@ -1,6 +1,6 @@
 //package practice.contest.leetcode;
 //
-//public class Solution1112 {
+//public class Solution1122 {
 //
 //    public static void main(String[] args) {
 //

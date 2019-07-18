@@ -10,7 +10,7 @@ class TreeNode {
     }
 }
 
-public class Solution5128 {
+public class Solution1123 {
 
     public static void main(String[] args) {
 //        Integer[][] cases = {
@@ -23,7 +23,7 @@ public class Solution5128 {
 //
 //        }
 
-        Solution5128 solution = new Solution5128();
+        Solution1123 solution = new Solution1123();
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.left.left = new TreeNode(3);
