@@ -62,12 +62,4 @@ public class Solution1106 {
         }
         return result;
     }
-
-//    private boolean and(String expression){
-//
-//    }
-//
-//    private boolean or(String expression){
-//
-//    }
 }
