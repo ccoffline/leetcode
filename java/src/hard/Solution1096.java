@@ -33,7 +33,9 @@ public class Solution1096 {
     public List<String> braceExpansionII(String expression) {
         chars = expression.toCharArray();
         index = 0;
-        return new ArrayList<>(parse());
+        List<String> result = new ArrayList<>(parse());
+        Collections.sort(result);
+        return result;
     }
 
     private int index;
@@ -52,14 +54,14 @@ public class Solution1096 {
     }
 
     private Collection<String> parse() {
-        Collection<String> result = new TreeSet<>(), temp = new TreeSet<>();
+        Collection<String> result = new HashSet<>(), temp = new HashSet<>();
         int pre = index;
         while (hasNext()) {
             switch (getNext()) {
                 case ',':
                     temp = cross(temp, substring(pre, index - 1));
                     result.addAll(temp);
-                    temp = new TreeSet<>();
+                    temp = new HashSet<>();
                     pre = index;
                     break;
                 case '{':
@@ -79,7 +81,7 @@ public class Solution1096 {
     }
 
     private Collection<String> cross(Collection<String> x, Collection<String> y) {
-        SortedSet<String> result = new TreeSet<>();
+        Set<String> result = new HashSet<>();
         if (x.isEmpty()) result.addAll(y);
         for (String a : x)
             for (String b : y)
@@ -88,7 +90,7 @@ public class Solution1096 {
     }
 
     private Collection<String> cross(Collection<String> x, String b) {
-        SortedSet<String> result = new TreeSet<>();
+        Set<String> result = new HashSet<>();
         if (x.isEmpty()) result.add(b);
         for (String a : x)
             result.add(a + b);
