@@ -1,8 +1,8 @@
-package practice.contest.leetcode;
+package medium;
 
 import java.util.Arrays;
 
-public class Solution5132 {
+public class Solution1129 {
     public int[] shortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) {
         int[][] edge = new int[n][n], red_start = new int[n][n], blue_start = new int[n][n];
         for (int[] red : red_edges)

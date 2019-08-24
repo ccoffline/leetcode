@@ -1,11 +1,11 @@
-package practice.contest.leetcode;
+package medium;
 
-public class Solution5131 {
+public class Solution1130 {
     public static void main(String[] args) {
         int[][] cases = {
                 {6, 2, 4},
         };
-        Solution5131 solution = new Solution5131();
+        Solution1130 solution = new Solution1130();
         for (int[] c : cases)
             System.out.println(solution.mctFromLeafValues(c));
     }

@@ -1,8 +1,8 @@
-package practice.contest.leetcode;
+package medium;
 
 import java.util.Arrays;
 
-public class Solution5133 {
+public class Solution1131 {
     public int maxAbsValExpr(int[] arr1, int[] arr2) {
         int len = arr1.length, max = 0;
         Node[] n1 = new Node[len], n2 = new Node[len];

@@ -1,11 +1,11 @@
-package practice.contest.leetcode;
+package easy;
 
 import java.util.Arrays;
 
-public class Solution5130 {
+public class Solution1128 {
 
     public static void main(String[] args) {
-        Solution5130 solution = new Solution5130();
+        Solution1128 solution = new Solution1128();
         int[][][] cases = {
 //                {{1, 2}, {2, 1}, {3, 4}, {5, 6}, {2, 1}},
                 {{2, 2}, {1, 2}, {1, 2}, {1, 1}, {1, 2}, {1, 1}, {2, 2}}

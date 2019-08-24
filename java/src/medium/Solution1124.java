@@ -1,4 +1,4 @@
-package practice.contest.leetcode;
+package medium;
 
 import java.io.BufferedReader;
 import java.io.File;

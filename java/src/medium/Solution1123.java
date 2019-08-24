@@ -1,4 +1,4 @@
-package practice.contest.leetcode;
+package medium;
 
 class TreeNode {
     int val;

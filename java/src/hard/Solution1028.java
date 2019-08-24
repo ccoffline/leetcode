@@ -1,4 +1,4 @@
-package practice.contest.leetcode;
+package hard;
 
 import java.util.LinkedList;
 import java.util.List;

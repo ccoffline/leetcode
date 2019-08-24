@@ -1,4 +1,4 @@
-package practice.contest.leetcode;
+package easy;
 
 import java.util.Arrays;
 
