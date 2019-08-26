@@ -1,8 +1,8 @@
-package practice.contest.leetcode;
+package medium;
 
-public class Solution5164 {
+public class Solution1171 {
     public static void main(String[] args) {
-        Solution5164 solution = new Solution5164();
+        Solution1171 solution = new Solution1171();
         int[][] cases = {
                 {1, 2, -3, 3, 0, 1},
                 {1, -1}
@@ -45,14 +45,5 @@ public class Solution5164 {
             temp = temp.next;
         }
         return head;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }

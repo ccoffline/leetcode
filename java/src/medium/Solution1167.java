@@ -1,8 +1,8 @@
-package practice.contest.leetcode;
+package medium;
 
 import java.util.PriorityQueue;
 
-public class Solution5062 {
+public class Solution1167 {
     public int connectSticks(int[] sticks) {
         int ans = 0;
         PriorityQueue<Integer> q = new PriorityQueue<>();

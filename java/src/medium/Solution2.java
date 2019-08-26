@@ -1,14 +1,5 @@
 package medium;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
-
 public class Solution2 {
 
     private static String toString(ListNode node) {

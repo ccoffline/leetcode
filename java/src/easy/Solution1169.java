@@ -1,10 +1,10 @@
-package practice.contest.leetcode;
+package easy;
 
 import java.util.*;
 
-public class Solution5167 {
+public class Solution1169 {
     public static void main(String[] args) {
-        Solution5167 solution = new Solution5167();
+        Solution1169 solution = new Solution1169();
         String[][] cases = {
                 {"alice,20,800,mtv", "alice,50,1200,mtv"}
         };

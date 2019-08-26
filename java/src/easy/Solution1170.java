@@ -1,10 +1,10 @@
-package practice.contest.leetcode;
+package easy;
 
 import java.util.Arrays;
 
-public class Solution5168 {
+public class Solution1170 {
     public static void main(String[] args) {
-        Solution5168 solution = new Solution5168();
+        Solution1170 solution = new Solution1170();
         System.out.println(Arrays.toString(
                 solution.numSmallerByFrequency(new String[]{"cbd"}, new String[]{"zaaaz"})));
     }

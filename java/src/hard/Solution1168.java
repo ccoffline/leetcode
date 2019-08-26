@@ -1,8 +1,8 @@
-package practice.contest.leetcode;
+package hard;
 
 import java.util.Arrays;
 
-public class Solution5074 {
+public class Solution1168 {
     public int minCostToSupplyWater(int n, int[] wells, int[][] pipes) {
         Weight[] list = new Weight[n + pipes.length];
         int[] f = new int[n + 1];
