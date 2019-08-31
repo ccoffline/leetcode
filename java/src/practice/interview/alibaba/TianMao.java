@@ -1,4 +1,4 @@
-package practice.interview;
+package practice.interview.alibaba;
 
 import java.util.Scanner;
 
@@ -31,31 +31,31 @@ public class TianMao {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] line = in.nextLine().split(",");
-        //总共商品种类
-        int categoryCount = Integer.valueOf(line[0]);
-        //快递体积
-        int totalVolume = Integer.valueOf(line[1]);
-        //快递重量
-        int totalWeight = Integer.valueOf(line[2]);
+        // 总共商品种类
+        int categoryCount = Integer.parseInt(line[0]);
+        // 快递体积
+        int totalVolume = Integer.parseInt(line[1]);
+        // 快递重量
+        int totalWeight = Integer.parseInt(line[2]);
 
-        //物品体积
+        // 物品体积
         int[] volume = new int[50];
-        //重量
+        // 重量
         int[] weight = new int[50];
-        //件数
+        // 件数
         int[] stock = new int[50];
-        //价格
+        // 价格
         int[] price = new int[50];
-        //类型
+        // 类型
         int[] itemType = new int[50];
 
         for (int i = 1; i <= categoryCount; i++) {
             line = in.nextLine().split(",");
-            volume[i] = Integer.valueOf(line[0]);
-            weight[i] = Integer.valueOf(line[1]);
-            stock[i] = Integer.valueOf(line[2]);
-            price[i] = Integer.valueOf(line[3]);
-            itemType[i] = Integer.valueOf(line[4]);
+            volume[i] = Integer.parseInt(line[0]);
+            weight[i] = Integer.parseInt(line[1]);
+            stock[i] = Integer.parseInt(line[2]);
+            price[i] = Integer.parseInt(line[3]);
+            itemType[i] = Integer.parseInt(line[4]);
         }
         in.close();
         System.out.println(totalPrice(categoryCount, totalVolume, totalWeight, volume, weight, stock, price, itemType));

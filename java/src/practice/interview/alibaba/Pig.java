@@ -1,4 +1,4 @@
-package practice.interview;
+package practice.interview.alibaba;
 
 /**
  * 阿里笔试
