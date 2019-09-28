@@ -1,7 +1,6 @@
-package practice.interview;
+package practice.interview.microsoft;
 
 /**
- * 微软：
  * 给定一个字符串，每次删除一个回文串或字符，最少几次能删干净
  */
 public class DeletePalindrome {

@@ -1,5 +1,3 @@
-import scala.collection.mutable.ListBuffer
-
 object Solution20 {
   def main(args: Array[String]): Unit = {
     val cases = Array(
@@ -15,6 +13,8 @@ object Solution20 {
   }
 
   object Solution {
+
+    import scala.collection.mutable.ListBuffer
     private val map = Map((')', '('), (']', '['), ('}', '{'))
 
     def isValid(s: String): Boolean = {
